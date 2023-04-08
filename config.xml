@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\NguyenVung\Downloads\ToolAvatar\ToolManager.jar</jar>
-  <outfile>C:\Users\NguyenVung\Downloads\ToolAvatar\Tool.exe</outfile>
+  <jar>C:\Users\vungnv\Downloads\ToolAvatar\ToolManager.jar</jar>
+  <outfile>C:\Users\vungnv\Downloads\ToolAvatar\Tool.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -15,7 +15,7 @@
   <manifest></manifest>
   <icon>D:\tool\images\theme-icon-png-6.ico</icon>
   <jre>
-    <path>jre</path>
+    <path>%JAVA_HOME%;%PATH%</path>
     <requiresJdk>false</requiresJdk>
     <requires64Bit>false</requires64Bit>
     <minVersion></minVersion>
@@ -29,7 +29,7 @@
     <productVersion>1.0.0.0</productVersion>
     <txtProductVersion>1.0.0.0</txtProductVersion>
     <productName>Tool Manager Avatar</productName>
-    <companyName>FPT</companyName>
+    <companyName>Tool Manager Avatar</companyName>
     <internalName>Tool Manager Avatar</internalName>
     <originalFilename>ToolManagerAvatar.exe</originalFilename>
     <trademarks></trademarks>
